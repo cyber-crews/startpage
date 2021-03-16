@@ -1,11 +1,17 @@
 baseURL = "https://startpage.w-ss.io/"
-languageCode = "en-US"
+languageCode = "en-GB"
 title = "Bootstrap-BP hugo startpage"
 copyright = "Sebastian Pech"
 enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true
 paginate = 5
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "docs"
 
 [sitemap]
     changefreq = "weekly"

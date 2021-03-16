@@ -1,7 +1,8 @@
 baseURL = "https://startpage.w-ss.io/"
 languageCode = "en-GB"
-title = "Bootstrap-BP hugo startpage"
-copyright = "Sebastian Pech"
+title = "Digital Clouds | Startpage"
+theme = "bootstrap-bp-hugo-startpage"
+copyright = "Salvydas Lukosius"
 enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true
@@ -24,13 +25,13 @@ publishDir   = "docs"
     page = "/:slug/"
 
 [Author]  
-  name = "Sebastian Pech"
+  name = "Salvydas Lukosius"
 
 [params]
-  description = "Text about the site"
+  description = "Starpage"
   #images = ["logo.jpg"]
   startPageColumns = true
-  welcomeText = "Bootstrap-BP hugo startpage"
+  welcomeText = "Digital Clouds | Startpage"
 
 [[params.searchEngines]]
   name = "Google"
@@ -41,10 +42,5 @@ publishDir   = "docs"
   name = "DuckDuckGo"
   activated = true
   url = "https://duckduckgo.com/"
-
-[[params.searchEngines]]
-  name = "Bing"
-  activated = true
-  url = "https://www.bing.com/search"
 
 [taxonomies]

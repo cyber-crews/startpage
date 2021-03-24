@@ -1,14 +1,16 @@
+#ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"]
 baseURL = "https://startpage.w-ss.io/"
 languageCode = "en-GB"
 title = "Digital Clouds | Startpage"
-theme = "bootstrap-bp-hugo-startpage"
+#theme = "bootstrap-bp-hugo-startpage"
+# googleAnalytics = "UA-123-45"
 copyright = "Salvydas Lukosius"
 enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true
 paginate = 5
 
-archetypeDir = "archetypes"
+#archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
@@ -34,9 +36,9 @@ publishDir   = "docs"
   welcomeText = "Digital Clouds | Startpage"
 
 [[params.searchEngines]]
-  name = "Google"
+  name = "Private Search"
   activated = true
-  url = "https://www.google.com/search"
+  url = "https://www.startpage.com/do/mypage.pl?prfe=aab1fbf12ffb0f2cf7f0792dc02895ae7f82d3df2f0366b04bba019743bad05a4a33941d03bfd0def9bd59f1b0ab3b485390ae4f9add84f20c26662ebd426c2d514229f16dbea7f57171a3bf01d992"
 
 [[params.searchEngines]]
   name = "DuckDuckGo"

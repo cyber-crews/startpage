@@ -1,5 +1,5 @@
 #ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"]
-baseURL = "https://startpage.w-ss.io/"
+baseURL = "https://cyber-crews.github.io/startpage"
 languageCode = "en-GB"
 title = "Digital Clouds | Startpage"
 #theme = "bootstrap-bp-hugo-startpage"

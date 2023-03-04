@@ -151,7 +151,7 @@ sup {
 a {
   color: #007bff;
   text-decoration: none;
-  background-color: initial;
+  background-color: transparent;
 }
 a:hover {
   color: #0056b3;
@@ -1948,7 +1948,7 @@ pre code {
   }
 }
 .form-control::-ms-expand {
-  background-color: initial;
+  background-color: transparent;
   border: 0;
 }
 .form-control:-moz-focusring {
@@ -2023,7 +2023,7 @@ select.form-control:focus::-ms-value {
   font-size: 1rem;
   line-height: 1.5;
   color: #212529;
-  background-color: initial;
+  background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
 }
@@ -2405,7 +2405,7 @@ textarea.form-control.is-invalid {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: initial;
+  background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -2732,7 +2732,7 @@ fieldset:disabled a.btn {
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
   color: #007bff;
-  background-color: initial;
+  background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .btn-outline-primary:not(:disabled):not(.disabled):active,
@@ -2762,7 +2762,7 @@ fieldset:disabled a.btn {
 .btn-outline-secondary.disabled,
 .btn-outline-secondary:disabled {
   color: #6c757d;
-  background-color: initial;
+  background-color: transparent;
 }
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .btn-outline-secondary:not(:disabled):not(.disabled):active,
@@ -2792,7 +2792,7 @@ fieldset:disabled a.btn {
 .btn-outline-success.disabled,
 .btn-outline-success:disabled {
   color: #28a745;
-  background-color: initial;
+  background-color: transparent;
 }
 .btn-outline-success:not(:disabled):not(.disabled).active,
 .btn-outline-success:not(:disabled):not(.disabled):active,
@@ -2822,7 +2822,7 @@ fieldset:disabled a.btn {
 .btn-outline-info.disabled,
 .btn-outline-info:disabled {
   color: #17a2b8;
-  background-color: initial;
+  background-color: transparent;
 }
 .btn-outline-info:not(:disabled):not(.disabled).active,
 .btn-outline-info:not(:disabled):not(.disabled):active,
@@ -2852,7 +2852,7 @@ fieldset:disabled a.btn {
 .btn-outline-warning.disabled,
 .btn-outline-warning:disabled {
   color: #ffc107;
-  background-color: initial;
+  background-color: transparent;
 }
 .btn-outline-warning:not(:disabled):not(.disabled).active,
 .btn-outline-warning:not(:disabled):not(.disabled):active,
@@ -2882,7 +2882,7 @@ fieldset:disabled a.btn {
 .btn-outline-danger.disabled,
 .btn-outline-danger:disabled {
   color: #dc3545;
-  background-color: initial;
+  background-color: transparent;
 }
 .btn-outline-danger:not(:disabled):not(.disabled).active,
 .btn-outline-danger:not(:disabled):not(.disabled):active,
@@ -2912,7 +2912,7 @@ fieldset:disabled a.btn {
 .btn-outline-light.disabled,
 .btn-outline-light:disabled {
   color: #f8f9fa;
-  background-color: initial;
+  background-color: transparent;
 }
 .btn-outline-light:not(:disabled):not(.disabled).active,
 .btn-outline-light:not(:disabled):not(.disabled):active,
@@ -2942,7 +2942,7 @@ fieldset:disabled a.btn {
 .btn-outline-dark.disabled,
 .btn-outline-dark:disabled {
   color: #343a40;
-  background-color: initial;
+  background-color: transparent;
 }
 .btn-outline-dark:not(:disabled):not(.disabled).active,
 .btn-outline-dark:not(:disabled):not(.disabled):active,
@@ -3210,7 +3210,7 @@ input[type="submit"].btn-block {
   color: #212529;
   text-align: inherit;
   white-space: nowrap;
-  background-color: initial;
+  background-color: transparent;
   border: 0;
 }
 .dropdown-item:focus,
@@ -3229,7 +3229,7 @@ input[type="submit"].btn-block {
 .dropdown-item:disabled {
   color: #6c757d;
   pointer-events: none;
-  background-color: initial;
+  background-color: transparent;
 }
 .dropdown-menu.show {
   display: block;
@@ -3803,7 +3803,7 @@ input[type="submit"].btn-block {
   width: 100%;
   height: 1.4rem;
   padding: 0;
-  background-color: initial;
+  background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -3915,7 +3915,7 @@ input[type="submit"].btn-block {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: initial;
+  background-color: transparent;
   border-color: transparent;
   border-width: 0.5rem;
 }
@@ -3995,7 +3995,7 @@ input[type="submit"].btn-block {
 }
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
-  background-color: initial;
+  background-color: transparent;
   border-color: transparent;
 }
 .nav-tabs .nav-item.show .nav-link,
@@ -4109,7 +4109,7 @@ input[type="submit"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: initial;
+  background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
@@ -5422,7 +5422,7 @@ a.badge-dark:focus {
 }
 button.close {
   padding: 0;
-  background-color: initial;
+  background-color: transparent;
   border: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -6265,7 +6265,7 @@ button.bg-dark:hover {
   background-color: #fff !important;
 }
 .bg-transparent {
-  background-color: initial !important;
+  background-color: transparent !important;
 }
 .border {
   border: 1px solid #dee2e6 !important;
@@ -7457,7 +7457,7 @@ button.bg-dark:hover {
   z-index: 1;
   pointer-events: auto;
   content: "";
-  background-color: initial;
+  background-color: transparent;
 }
 .m-0 {
   margin: 0 !important;
@@ -9350,7 +9350,7 @@ a.text-dark:hover {
   font: 0/0 a;
   color: transparent;
   text-shadow: none;
-  background-color: initial;
+  background-color: transparent;
   border: 0;
 }
 .text-decoration-none {
@@ -9557,8 +9557,8 @@ a.text-dark:hover {
 }
 @-webkit-keyframes fa-spin {
   0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
   }
   to {
     -webkit-transform: rotate(1turn);
@@ -9567,8 +9567,8 @@ a.text-dark:hover {
 }
 @keyframes fa-spin {
   0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
   }
   to {
     -webkit-transform: rotate(1turn);

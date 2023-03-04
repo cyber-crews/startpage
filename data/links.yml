@@ -2,10 +2,10 @@
 - group: Pages
   items:
     - title: Porfolio
-      url: https://sall.w-ss.io/
-      icon: fab fa-blog
+      url: https://ss-o.github.io
+      icon: fas fa-user
 - group: Utilities
   items:
     - title: GitHub
       url: https://github.com/ss-o/
-      icon: fab fa-github
+      icon: fas fa-github

@@ -1,48 +1,48 @@
 #ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"]
 baseURL = "https://cyber-crews.github.io/startpage"
 languageCode = "en-GB"
-title = "Digital Clouds | Startpage"
+title = "Startpage"
 #theme = "bootstrap-bp-hugo-startpage"
 # googleAnalytics = "UA-123-45"
-copyright = "Salvydas Lukosius"
+copyright = "Digital Clouds"
 enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true
 paginate = 5
 
-#archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "docs"
+archetypeDir = "archetypes"
+contentDir = "content"
+dataDir = "data"
+layoutDir = "layouts"
+publishDir = "docs"
 
 [sitemap]
-    changefreq = "weekly"
-    priority = 0.5
+changefreq = "weekly"
+priority = 0.5
 
 [permalinks]
-    posts = "/:year/:month/:slug/"
-    post = "/:year/:month/:slug/"
-    pages = "/:slug/"
-    page = "/:slug/"
+posts = "/:year/:month/:slug/"
+post = "/:year/:month/:slug/"
+pages = "/:slug/"
+page = "/:slug/"
 
-[Author]  
-  name = "Salvydas Lukosius"
+[Author]
+name = "Salvydas Lukosius"
 
 [params]
-  description = "Starpage"
-  #images = ["logo.jpg"]
-  startPageColumns = true
-  welcomeText = "Digital Clouds | Startpage"
+description = "Starpage"
+#images = ["logo.jpg"]
+startPageColumns = true
+welcomeText = "Startpage"
 
 [[params.searchEngines]]
-  name = "Private Search"
-  activated = true
-  url = "https://www.startpage.com/do/mypage.pl?prfe=aab1fbf12ffb0f2cf7f0792dc02895ae7f82d3df2f0366b04bba019743bad05a4a33941d03bfd0def9bd59f1b0ab3b485390ae4f9add84f20c26662ebd426c2d514229f16dbea7f57171a3bf01d992"
+name = "Private Search"
+activated = true
+url = "https://www.startpage.com/do/mypage.pl?prfe=aab1fbf12ffb0f2cf7f0792dc02895ae7f82d3df2f0366b04bba019743bad05a4a33941d03bfd0def9bd59f1b0ab3b485390ae4f9add84f20c26662ebd426c2d514229f16dbea7f57171a3bf01d992"
 
 [[params.searchEngines]]
-  name = "DuckDuckGo"
-  activated = true
-  url = "https://duckduckgo.com/"
+name = "Google"
+activated = true
+url = "https://google.com/"
 
 [taxonomies]

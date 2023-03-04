@@ -2,7 +2,7 @@
 baseURL = "https://cyber-crews.github.io/startpage/"
 languageCode = "en-GB"
 title = "Startpage"
-#theme = "bootstrap-bp-hugo-startpage"
+theme = "bootstrap-bp-hugo-startpage"
 # googleAnalytics = "UA-123-45"
 copyright = "Digital Clouds"
 enableRobotsTXT = true
